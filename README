@@ -1,0 +1,9 @@
+= Grab
+
+Radiant CMS extension that provides an <r:grab url="http://some-url.com" /> tag to return some content (HTML) from somewhere.
+
+= Usage
+
+<r:grab url="http://som-url.com" [select="your xpath or css"] [class="your-class"] [id="your-id"] /> 
+
+Built by smooshyLab http://www.smooshylab.com
