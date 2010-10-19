@@ -4,8 +4,12 @@
 class GrabExtension < Radiant::Extension
   version "1.0"
   description "Grabs stuff from somewhere"
-  url "http://yourwebsite.com/grab"
+  url "http://github.com/smooshy/radiant-grab-extension"
   
+  extension_config do |config|
+    config.gem "hpricot"
+  end
+
   def activate
     Page.send :include, GrabTags
   end

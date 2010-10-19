@@ -2,6 +2,8 @@
 
 Radiant CMS extension that provides an <r:grab url="http://some-url.com" /> tag to return some content (HTML) from somewhere.
 
+This extension uses the hpricot gem, so make sure that's installed. 
+
 = Usage
 
 <r:grab url="http://som-url.com" [select="your xpath or css"] [class="your-class"] [id="your-id"] /> 
