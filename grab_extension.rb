@@ -6,10 +6,6 @@ class GrabExtension < Radiant::Extension
   description "Grabs stuff from somewhere"
   url "http://github.com/smooshy/radiant-grab-extension"
   
-  extension_config do |config|
-    config.gem "hpricot"
-  end
-
   def activate
     Page.send :include, GrabTags
   end
